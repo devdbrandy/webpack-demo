@@ -7,12 +7,15 @@ module.exports = {
     app: './src/index.js',
     print: './src/print.js'
   },
+  devtool: 'inline-source-map',
+  devServer: { contentBase: './dist' },
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({ title: 'Output Management' })
   ],
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve('dist')
+    path: path.resolve('dist'),
+    publicPath: '/'
   }
 };
