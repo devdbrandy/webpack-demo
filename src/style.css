@@ -1,0 +1,13 @@
+@font=face {
+  font-family: 'monaco';
+  src: url('./monaco-webfont.woff');
+  src: url('./monaco-webfont.woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-family: 'monaco';
+  background: url('./logo.svg') no-repeat;
+}
