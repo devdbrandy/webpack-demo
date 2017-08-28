@@ -11,6 +11,8 @@
   "author": "Harry Dbrandy <dbrandydude@gmail.com> (http://github.com/dbrandydude)",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.5.5"
   },
   "dependencies": {
